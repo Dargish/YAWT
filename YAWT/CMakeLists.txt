@@ -1,10 +1,12 @@
 set(TARGET yawt)
 
 file(GLOB_RECURSE SRC *.cpp)
-
-source_group("" FILES ${SRC})
+file(GLOB_RECURSE HDR *.h)
 
 include_directories(${YAWT_INCLUDE_DIR})
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/src")
+
+add_definitions(-DRENDERER_EXPORT)
 
 add_library(${TARGET} SHARED ${SRC})
 
