@@ -1,0 +1,14 @@
+set(TARGET yawt)
+
+file(GLOB_RECURSE SRC *.cpp)
+
+source_group("" FILES ${SRC})
+
+include_directories(${YAWT_INCLUDE_DIR})
+
+add_library(${TARGET} SHARED ${SRC})
+
+install(TARGETS ${TARGET}
+	RUNTIME DESTINATION ${PROJECT_BINARY_DIR}/bin
+	LIBRARY DESTINATION ${PROJECT_BINARY_DIR}/lib
+	ARCHIVE DESTINATION ${PROJECT_BINARY_DIR}/lib/static)
