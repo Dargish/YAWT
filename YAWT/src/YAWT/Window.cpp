@@ -1,9 +1,9 @@
-#include <Renderer/Window.h>
+#include <YAWT/Window.h>
 
 #if defined _WIN32
-#include <Renderer/Interfaces/Windows/WindowsWindow.h>
+#include <YAWT/Interfaces/Windows/WindowsWindow.h>
 #elif defined _GCC
-#include <Renderer/Interfaces/Linux/LinuxWindow.h>
+#include <YAWT/Interfaces/Linux/LinuxWindow.h>
 #endif
 
 #include <memory>

@@ -1,4 +1,4 @@
-#include <Renderer/Interfaces/DirectX/DirectXGraphicsInterface.h>
+#include <YAWT/Interfaces/DirectX/DirectXGraphicsInterface.h>
 
 namespace renderer
 {

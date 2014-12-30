@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Renderer/Interfaces/DirectX/DirectXGraphicsContext.h>
+#include <YAWT/Interfaces/DirectX/DirectXGraphicsContext.h>
 
 namespace renderer
 {

@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Renderer/Interfaces/OpenGL/OpenGLGraphicsContext.h>
+#include <YAWT/Interfaces/OpenGL/OpenGLGraphicsContext.h>
 
 namespace renderer
 {

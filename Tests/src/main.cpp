@@ -1,6 +1,6 @@
-#include <Renderer/Interfaces/OpenGL/OpenGLGraphicsInterface.h>
-#include <Renderer/Interfaces/DirectX/DirectXGraphicsInterface.h>
-#include <Renderer/Window.h>
+#include <YAWT/Interfaces/OpenGL/OpenGLGraphicsInterface.h>
+#include <YAWT/Interfaces/DirectX/DirectXGraphicsInterface.h>
+#include <YAWT/Window.h>
 
 using namespace renderer;
 using namespace renderer::interfaces::opengl;

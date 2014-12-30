@@ -1,4 +1,4 @@
-#include <Renderer/Interfaces/OpenGL/OpenGLGraphicsInterface.h>
+#include <YAWT/Interfaces/OpenGL/OpenGLGraphicsInterface.h>
 
 namespace renderer
 {
