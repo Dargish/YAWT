@@ -1,8 +1,8 @@
 #pragma once
 
-#include <Renderer/GraphicsContext.h>
+#include <YAWT/GraphicsContext.h>
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{

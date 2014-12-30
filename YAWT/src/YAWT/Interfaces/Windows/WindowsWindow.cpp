@@ -1,7 +1,7 @@
 #if defined _WIN32
 #include "WindowsWindow.h"
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{
@@ -40,7 +40,7 @@ namespace renderer
 				wc.hCursor = LoadCursor(NULL, IDC_ARROW);
 				wc.hbrBackground = NULL;
 				wc.lpszMenuName = NULL;
-				wc.lpszClassName = L"Renderer";
+				wc.lpszClassName = (LPCSTR)"Renderer";
 
 				if (!RegisterClass(&wc))
 				{
@@ -52,8 +52,8 @@ namespace renderer
 					DEVMODE dmScreenSettings;
 					memset(&dmScreenSettings, 0, sizeof(dmScreenSettings));
 					dmScreenSettings.dmSize = sizeof(dmScreenSettings);
-					dmScreenSettings.dmPelsWidth = m_width;
-					dmScreenSettings.dmPelsHeight = m_height;
+					dmScreenSettings.dmPelsWidth = (DWORD)m_width;
+					dmScreenSettings.dmPelsHeight = (DWORD)m_height;
 					dmScreenSettings.dmBitsPerPel = 32;
 					dmScreenSettings.dmFields = DM_BITSPERPEL | DM_PELSWIDTH | DM_PELSHEIGHT;
 					if (ChangeDisplaySettings(&dmScreenSettings, CDS_FULLSCREEN) != DISP_CHANGE_SUCCESSFUL)
@@ -77,8 +77,8 @@ namespace renderer
 
 				m_hWnd = CreateWindowEx(
 					dwExStyle,
-					L"Renderer",
-					L"Render Window",
+					(LPCSTR)"Renderer",
+					(LPCSTR)"Render Window",
 					WS_CLIPSIBLINGS | WS_CLIPCHILDREN | dwStyle,
 					0, 0,  // position
 					windowRect.right - windowRect.left,  // width

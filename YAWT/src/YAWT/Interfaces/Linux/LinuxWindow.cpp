@@ -1,7 +1,7 @@
 #if defined _GCC
 #include "Window.h"
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{

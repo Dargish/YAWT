@@ -1,7 +1,7 @@
 #pragma once
-#include <Renderer/Renderer.h>
+#include <YAWT/Renderer.h>
 
-namespace renderer
+namespace yawt
 {
 	class RENDERERAPI Window
 	{

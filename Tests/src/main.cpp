@@ -2,9 +2,12 @@
 #include <YAWT/Interfaces/DirectX/DirectXGraphicsInterface.h>
 #include <YAWT/Window.h>
 
-using namespace renderer;
-using namespace renderer::interfaces::opengl;
-using namespace renderer::interfaces::directx;
+#include <chrono>
+#include <thread>
+
+using namespace yawt;
+using namespace yawt::interfaces::opengl;
+using namespace yawt::interfaces::directx;
 
 int main()
 {
@@ -17,5 +20,7 @@ int main()
 
 	DirectXGraphicsInterface* dxInterface = new DirectXGraphicsInterface();
 	DirectXGraphicsContext* dxContext = dxInterface->createContext(window);
+
+	std::this_thread::sleep_for(std::chrono::milliseconds(2000));
 	return 0;
 }

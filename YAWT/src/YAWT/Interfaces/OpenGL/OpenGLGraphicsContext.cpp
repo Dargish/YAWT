@@ -2,7 +2,7 @@
 
 #include <YAWT/Interfaces/OpenGL/OpenGLGraphicsContext.h>
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{

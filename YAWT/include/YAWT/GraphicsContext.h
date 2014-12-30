@@ -1,9 +1,9 @@
 #pragma once
 
-#include <Renderer/Renderer.h>
-#include <Renderer/Window.h>
+#include <YAWT/Renderer.h>
+#include <YAWT/Window.h>
 
-namespace renderer
+namespace yawt
 {
 	class RENDERERAPI GraphicsContext
 	{

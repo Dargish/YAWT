@@ -1,10 +1,10 @@
 #pragma once
 
-#include <Renderer/Renderer.h>
-#include <Renderer/Window.h>
-#include <Renderer/GraphicsContext.h>
+#include <YAWT/Renderer.h>
+#include <YAWT/Window.h>
+#include <YAWT/GraphicsContext.h>
 
-namespace renderer
+namespace yawt
 {
 	class RENDERERAPI GraphicsInterface
 	{

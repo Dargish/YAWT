@@ -2,7 +2,7 @@
 
 #include <YAWT/Interfaces/DirectX/DirectXGraphicsContext.h>
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{

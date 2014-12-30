@@ -3,7 +3,7 @@
 #include "../../AbstractPrivateWindow.h"
 
 #if defined _GCC
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{

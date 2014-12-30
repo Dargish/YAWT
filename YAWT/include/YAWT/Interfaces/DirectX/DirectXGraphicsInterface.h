@@ -1,9 +1,9 @@
 #pragma once
 
-#include <Renderer/GraphicsInterface.h>
-#include <Renderer/Interfaces/DirectX/DirectXGraphicsContext.h>
+#include <YAWT/GraphicsInterface.h>
+#include <YAWT/Interfaces/DirectX/DirectXGraphicsContext.h>
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{

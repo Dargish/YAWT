@@ -8,7 +8,7 @@
 
 #include <memory>
 
-namespace renderer
+namespace yawt
 {
 #if defined _WIN32
 	namespace pvt = interfaces::windows;

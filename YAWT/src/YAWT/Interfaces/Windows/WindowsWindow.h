@@ -5,7 +5,7 @@
 #if defined _WIN32
 #include <Windows.h>
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{

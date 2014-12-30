@@ -1,6 +1,6 @@
 #include <YAWT/Interfaces/OpenGL/OpenGLGraphicsInterface.h>
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{

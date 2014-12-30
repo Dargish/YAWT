@@ -1,6 +1,6 @@
 #include <YAWT/Interfaces/DirectX/DirectXGraphicsInterface.h>
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{

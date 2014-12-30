@@ -1,9 +1,9 @@
 #pragma once
 
-#include <Renderer/GraphicsInterface.h>
-#include <Renderer/Interfaces/OpenGL/OpenGLGraphicsContext.h>
+#include <YAWT/GraphicsInterface.h>
+#include <YAWT/Interfaces/OpenGL/OpenGLGraphicsContext.h>
 
-namespace renderer
+namespace yawt
 {
 	namespace interfaces
 	{
