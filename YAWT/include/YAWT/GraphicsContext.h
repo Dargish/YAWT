@@ -8,10 +8,10 @@ namespace yawt
 	class RENDERERAPI GraphicsContext
 	{
 	public:
-		GraphicsContext(const Window& window) : m_window(window) {}
+		GraphicsContext(const Window* window) : m_window(window) {}
 		virtual ~GraphicsContext() {}
 
 	protected:
-		Window m_window;
+		const Window* m_window;
 	};
 }

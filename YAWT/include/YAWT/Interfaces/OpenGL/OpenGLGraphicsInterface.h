@@ -15,7 +15,7 @@ namespace yawt
 				OpenGLGraphicsInterface();
 				virtual ~OpenGLGraphicsInterface();
 
-				virtual OpenGLGraphicsContext* createContext(const Window& window);
+				virtual OpenGLGraphicsContext* createContext(const Window* window);
 			};
 		}
 	}

@@ -8,7 +8,7 @@ namespace yawt
 	{
 		namespace directx
 		{
-			DirectXGraphicsContext::DirectXGraphicsContext(const Window& window) :
+			DirectXGraphicsContext::DirectXGraphicsContext(const Window* window) :
 				GraphicsContext(window)
 			{
 

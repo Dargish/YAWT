@@ -11,7 +11,7 @@ namespace yawt
 			class RENDERERAPI OpenGLGraphicsContext : public GraphicsContext
 			{
 			public:
-				OpenGLGraphicsContext(const Window& window);
+				OpenGLGraphicsContext(const Window* window);
 				virtual ~OpenGLGraphicsContext();
 			};
 		}

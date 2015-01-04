@@ -15,7 +15,7 @@ namespace yawt
 				DirectXGraphicsInterface();
 				virtual ~DirectXGraphicsInterface();
 
-				virtual DirectXGraphicsContext* createContext(const Window& window);
+				virtual DirectXGraphicsContext* createContext(const Window* window);
 			};
 		}
 	}

@@ -16,7 +16,7 @@ namespace yawt
 
 			}
 
-			OpenGLGraphicsContext* OpenGLGraphicsInterface::createContext(const Window& window)
+			OpenGLGraphicsContext* OpenGLGraphicsInterface::createContext(const Window* window)
 			{
 				return new OpenGLGraphicsContext(window);
 			}

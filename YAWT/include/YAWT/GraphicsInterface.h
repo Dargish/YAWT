@@ -11,6 +11,6 @@ namespace yawt
 	public:
 		virtual ~GraphicsInterface() {}
 
-		virtual GraphicsContext* createContext(const Window& window) = 0;
+		virtual GraphicsContext* createContext(const Window* window) = 0;
 	};
 }

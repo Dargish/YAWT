@@ -16,7 +16,7 @@ namespace yawt
 
 			}
 
-			DirectXGraphicsContext* DirectXGraphicsInterface::createContext(const Window& window)
+			DirectXGraphicsContext* DirectXGraphicsInterface::createContext(const Window* window)
 			{
 				return new DirectXGraphicsContext(window);
 			}

@@ -16,10 +16,10 @@ int main()
 	window.show();
 
 	OpenGLGraphicsInterface* oglInterface = new OpenGLGraphicsInterface();
-	OpenGLGraphicsContext* oglContext = oglInterface->createContext(window);
+	OpenGLGraphicsContext* oglContext = oglInterface->createContext(&window);
 
 	DirectXGraphicsInterface* dxInterface = new DirectXGraphicsInterface();
-	DirectXGraphicsContext* dxContext = dxInterface->createContext(window);
+	DirectXGraphicsContext* dxContext = dxInterface->createContext(&window);
 
 	std::this_thread::sleep_for(std::chrono::milliseconds(2000));
 	return 0;

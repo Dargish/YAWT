@@ -11,7 +11,7 @@ namespace yawt
 			class RENDERERAPI DirectXGraphicsContext : public GraphicsContext
 			{
 			public:
-				DirectXGraphicsContext(const Window& window);
+				DirectXGraphicsContext(const Window* window);
 				virtual ~DirectXGraphicsContext();
 			};
 		}
